@@ -1,0 +1,55 @@
+.campos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centraliza verticalmente */
+    padding: 20px; /* Ajuste a margem interna se necessário */
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+    max-width: 400px; /* Limita a largura do container para uma melhor visualização */
+    border: 1px solid #ccc; /* Adiciona uma borda leve (opcional) */
+    border-radius: 8px; /* Arredonda os cantos (opcional) */
+    background-color: #f9f9f9; /* Cor de fundo (opcional) */
+}
+
+.campos input {
+    margin-bottom: 10px; /* Espaço entre os campos de entrada */
+    padding: 10px; /* Espaçamento interno dos campos de entrada */
+    width: 100%; /* Faz com que os campos ocupem a largura disponível */
+    max-width: 300px; /* Limita a largura dos campos de entrada */
+    box-sizing: border-box; /* Inclui o padding e a borda na largura total */
+}
+
+.campos button {
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 4px; /* Arredonda os cantos do botão */
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+    font-size: 16px; /* Tamanho da fonte do botão */
+}
+
+.campos button:hover {
+    background-color: #0056b3; /* Cor de fundo do botão quando o mouse está sobre ele */
+}
+
+.campos h1 {
+    margin-top: 20px; /* Espaço acima do resultado */
+    font-size: 24px; /* Tamanho da fonte do resultado */
+    color: #333; /* Cor do texto do resultado */
+}
+
+.resultado {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.resultado h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.resultado p {
+    font-size: 18px;
+    color: #555;
+}
